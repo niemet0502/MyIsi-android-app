@@ -1,4 +1,5 @@
 <resources>
+    <string name="isi_presentation">Isi est créé en XXX avec comme directeur M. Samb, isi forme des Informaticiens, de maintenanciersppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPppppppppppFIN </string>
     <string name="app_name">My Isi</string>
     <string name="connection">Connexion</string>
     <string name="login">Identifiant</string>
