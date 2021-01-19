@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tab_formation" >
+
+        <item>Software Ing</item>
+        <item>Telecoms Network</item>
+        <item>Admin Sys</item>
+        <item>MIAGE</item>
+        <item>Financial</item>
+        <item>Software Ing</item>
+        <item>Telecoms Network</item>
+        <item>Admin Sys</item>
+        <item>MIAGE</item>
+        <item>Financial</item>
+        <item>Software Ing</item>
+        <item>Telecoms Network</item>
+        <item>Admin Sys</item>
+        <item>MIAGE</item>
+        <item>Financial</item>
+        <item>Software Ing</item>
+        <item>Telecoms Network</item>
+        <item>Admin Sys</item>
+        <item>MIAGE</item>
+        <item>Financial</item>
+        <item>Software Ing</item>
+        <item>Telecoms Network</item>
+        <item>Admin Sys</item>
+        <item>MIAGE</item>
+        <item>Financial</item>
+        <item>Software Ing</item>
+        <item>Telecoms Network</item>
+        <item>Admin Sys</item>
+        <item>MIAGE</item>
+        <item>Financial</item>
+
+
+    </string-array>
+
+    <string-array name="tab_details" >
+
+        <item>Java, C, C#, Php, UML, Linux, Oracle, JS, Mysql, Android, Network, Systems. Dev Front, Dev Back, Dev Mobile, DBA </item>
+        <item>Java, C, Linux, Admin Network, Sys, VoIp, Cisco, Oracle, UML, Anglais. Admin Sys, Admin Network, DBA, Dev</item>
+        <item>Admin Sys .......</item>
+        <item>MIAGE ......</item>
+        <item>Financial .....</item>
+
+    </string-array>
+
+</resources>
