@@ -4,26 +4,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorBlueSky"
-    android:padding="@dimen/dim_all"
-    android:gravity="center"
-
+    android:layout_margin="@dimen/dim_all"
     tools:context=".InscriptionFragment">
 
     <TextView
         android:textStyle="bold"
-        android:layout_marginTop="@dimen/dim_top"
+        android:gravity="center"
         android:textSize="@dimen/dim_title"
-        android:layout_gravity="center"
         android:text="@string/inscription"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
 
+
     <EditText
         android:id="@+id/txtFirstName"
-        android:textColorHint="@color/colorWhite"
-        android:textSize="@dimen/dim_title"
         android:layout_marginTop="@dimen/dim_top"
         android:hint="@string/first_name"
         android:layout_width="match_parent"
@@ -31,11 +26,8 @@
         />
 
     <EditText
-        android:inputType="text"
         android:id="@+id/txtLastName"
         android:layout_marginTop="@dimen/dim_top"
-        android:textColorHint="@color/colorWhite"
-        android:textSize="@dimen/dim_title"
         android:hint="@string/last_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,53 +35,44 @@
 
     <TextView
         android:layout_marginTop="@dimen/dim_top"
-        android:textColor="@color/colorWhite"
         android:textSize="@dimen/dim_title"
         android:text="@string/degrees"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
 
     <CheckBox
         android:id="@+id/cbOLevel"
-        android:textSize="@dimen/dim_title"
+        android:layout_marginTop="@dimen/dim_top"
         android:layout_marginLeft="@dimen/dim_middle"
-        android:textColor="@color/colorWhite"
         android:text="@string/o_level"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
-    
     <CheckBox
         android:id="@+id/cbBachelor"
-        android:textSize="@dimen/dim_title"
-        android:textColor="@color/colorWhite"
-        android:text="@string/bachelor"
+        android:layout_marginTop="@dimen/dim_top"
         android:layout_marginLeft="@dimen/dim_middle"
+        android:text="@string/bachelor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <CheckBox
+        android:id="@+id/cbMaster"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_marginLeft="@dimen/dim_middle"
+        android:text="@string/master"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
 
-    <CheckBox
-        android:id="@+id/cbMaster"
-        android:layout_marginLeft="@dimen/dim_middle"
-        android:textColor="@color/colorWhite"
-        android:textSize="@dimen/dim_title"
-        android:text="@string/master"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
-    </CheckBox>
-
     <Button
-        android:textColor="@color/colorBlueDark"
-        android:background="@color/colorWhite"
-        android:layout_marginTop="@dimen/dim_top"
-        android:textSize="@dimen/dim_title"
+        android:background="@color/colorBlueSky"
+        android:id="@+id/btnSave"
         android:text="@string/save"
+        android:layout_marginTop="@dimen/dim_top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        >
-    </Button>
+        />
 
 </LinearLayout>
