@@ -4,12 +4,12 @@
 
     To get one, follow this link, follow the directions and press "Create" at the end:
 
-    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=8B:1A:27:07:74:0C:19:42:27:1D:98:26:98:88:3B:7F:06:05:F4:0A%3Bcom.example.mydit5
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=8B:1A:27:07:74:0C:19:42:27:1D:98:26:98:88:3B:7F:06:05:F4:0A%3Bcom.example.myisi
 
     You can also add your credentials to an existing key, using these values:
 
     Package name:
-    com.example.mydit5
+    com.example.myisi
 
     SHA-1 certificate fingerprint:
     8B:1A:27:07:74:0C:19:42:27:1D:98:26:98:88:3B:7F:06:05:F4:0A
@@ -20,5 +20,5 @@
     Once you have your key (it starts with "AIza"), replace the "google_maps_key"
     string in this file.
     -->
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCPmtXZcZ8nENFKGT4ntLkcZi_kUFN0jLY</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAVnugnLOR8aWVibu1dMxd5AgghimEceoA</string>
 </resources>
