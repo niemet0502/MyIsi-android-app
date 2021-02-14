@@ -7,23 +7,27 @@
 
     <fragment
         android:id="@+id/nav_presentation"
-        android:name="com.example.mydit5.ui.home.HomeFragment"
-        android:label="@string/presentation"
+        android:name="com.example.myisi.ui.home.HomeFragment"
+        android:label="@string/menu_home"
         tools:layout="@layout/fragment_home">
+
     </fragment>
+
+
 
     <fragment
         android:id="@+id/nav_formation"
-        android:name="com.example.mydit5.FormationFragment"
+        android:name="com.example.myisi.FormationFragment"
         android:label="@string/formation"
         tools:layout="@layout/fragment_formation">
     </fragment>
 
     <fragment
         android:id="@+id/nav_university"
-        android:name="com.example.mydit5.UniversityFragment"
+        android:name="com.example.myisi.UniversityFragment"
         android:label="@string/university"
-        tools:layout="@layout/fragment_university">
+        tools:layout="@layout/university_fragment">
+
     </fragment>
 
 </navigation>
