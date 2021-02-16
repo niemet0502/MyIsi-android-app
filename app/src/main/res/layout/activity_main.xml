@@ -6,55 +6,60 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="@dimen/dim_all"
-    android:gravity="center"
+    android:layout_margin="@dimen/dim_all"
     tools:context=".MainActivity">
 
+
     <TextView
-        android:textColor="@color/colorBlack"
+        android:layout_marginTop="@dimen/dim_top"
         android:textStyle="bold"
         android:gravity="center"
         android:textSize="@dimen/dim_title"
         android:text="@string/connection"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        >
+
+    </TextView>
 
     <EditText
         android:id="@+id/txtLogin"
-        android:layout_marginTop="20dp"
-        android:hint="Login"
+        android:layout_marginTop="@dimen/dim_top"
+        android:hint="@string/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        >
+    </EditText>
 
     <EditText
         android:inputType="textPassword"
         android:id="@+id/txtPassword"
-        android:layout_marginTop="20dp"
-        android:hint="Password"
+        android:layout_marginTop="@dimen/dim_top"
+        android:hint="@string/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        >
+    </EditText>
 
     <Button
-        android:layout_marginTop="20dp"
+        android:background="@color/colorBlueSky"
         android:id="@+id/btnConnect"
-        android:textColor="#FFFFFF"
-         android:background="#FF3700B3"
-        android:text="Connect"
+        android:layout_marginTop="@dimen/dim_top"
+        android:text="@string/connect"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-    />
+        >
+    </Button>
 
     <Button
-        android:layout_marginTop="20dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorBlueDark"
         android:id="@+id/btnSignUp"
-        android:textColor="#000000"
-         android:background="#59bffd"
-        android:text="Connect"
+        android:layout_marginTop="@dimen/dim_top"
+        android:text="@string/sign_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        >
+    </Button>
 
 </LinearLayout>
